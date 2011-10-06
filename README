@@ -1,0 +1,5 @@
+This is a very simple project created to test how well SproutCore 2.0 can be integrated with ASP.NET MVC
+
+The goal is to compare how easy and flexible SproutCore 2.0 is to create web apps using ASP.NET MVC as a backend.
+
+I am learning SproutCore on the process, so the code here has a really high chance of being not what it should. But hey, that's learning right :)
