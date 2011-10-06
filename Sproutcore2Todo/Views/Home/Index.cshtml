@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@section Head{
+    
+}
+
+<h1>Todos</h1>
+
+<script type="text/html">
+{{view Todos.CreateTodoView id="new-todo" placeholder="What needs to be done?"}}
+
+{{#collection contentBinding="Todos.todosController" tagName="ul" itemClassBinding="content.isDone"}}
+    {{view SC.Checkbox titleBinding="content.title"
+        valueBinding="content.isDone"}}
+{{/collection}}
+
+</script>
+
